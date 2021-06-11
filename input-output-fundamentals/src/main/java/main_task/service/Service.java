@@ -74,8 +74,6 @@ public class Service {
         } else {
             averageNumber = firstArgument;
         }
-        double scale = Math.pow(10, 3);
-        averageNumber = Math.ceil(averageNumber * scale) / scale;
         return averageNumber;
     }
 

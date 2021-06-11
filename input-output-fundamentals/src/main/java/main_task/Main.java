@@ -19,8 +19,8 @@ public class Main {
                     int numberOfFiles = service.countNumberOfFiles(programArgumentPath);
                     System.out.println("Number of folders: " + numberOfFolders);
                     System.out.println("Number of files: " + numberOfFiles);
-                    System.out.println("Average number of files in a folder: " + service.countAverageNumber(numberOfFiles, numberOfFolders));
-                    System.out.println("Average length of file name: " + service.countAverageLengthOfFileName(programArgumentPath));
+                    System.out.format("Average number of files in a folder: %.3f \n", service.countAverageNumber(numberOfFiles, numberOfFolders));
+                    System.out.format("Average length of file name: %.3f ", service.countAverageLengthOfFileName(programArgumentPath));
                 }
             } catch (IOException e) {
                 e.printStackTrace();
