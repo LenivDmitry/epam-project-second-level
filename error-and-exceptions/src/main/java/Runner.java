@@ -13,7 +13,7 @@ import service.UniversityService;
 
 import java.util.List;
 
-import static enums.Subject.STORY;
+import static enums.Subject.*;
 
 public class Runner {
     public static void main(String[] args) {
@@ -33,14 +33,9 @@ public class Runner {
             System.out.println(universityService.averageScoreAllSubjectsOfStudent(students, 3));
             System.out.println(universityService.averageScoreSubjectAllStudents(students, STORY));
             System.out.println(universityService.averageStoreSubjectOfSpecificGroupAndFaculty(awesomeUniversity,
-                    "Mechanical faculty", "M-1", STORY));
-        } catch (StudentWithoutSubjectException e) {
-            e.printStackTrace();
-        } catch (GroupWithoutStudentException e) {
-            e.printStackTrace();
-        } catch (FacultyWithoutGroupException e) {
-            e.printStackTrace();
-        } catch (UniversityWithoutFacultyException e) {
+                    "Mechanical faculty", "M-1", PHYSICS));
+        } catch (StudentWithoutSubjectException | GroupWithoutStudentException |
+                FacultyWithoutGroupException | UniversityWithoutFacultyException e) {
             e.printStackTrace();
         }
     }

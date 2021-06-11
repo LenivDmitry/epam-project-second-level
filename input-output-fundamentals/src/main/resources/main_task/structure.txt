@@ -1,0 +1,24 @@
+ | input-output-fundamentals.iml
+ | pom.xml
+ |--- src
+ |  |--- main
+ |  |  |--- java
+ |  |  |  |--- main_task
+ |  |  |  |  | Main.java
+ |  |  |  |  |--- service
+ |  |  |  |  |  | Service.java
+ |  |  |  |--- optional_task
+ |  |  |  |  | Task1.java
+ |  |  |  |  | Task2.java
+ |  |  |  |  | Task3.java
+ |  |  |--- resources
+ |  |  |  |--- main_task
+ |  |  |  |  | structure.txt
+ |  |  |  |--- task1
+ |  |  |  |  | 1.txt
+ |  |  |  |--- task2
+ |  |  |  |  | 2.txt
+ |  |  |  |--- task3
+ |  |  |  |  | 3.txt
+ |  |--- test
+ |  |  |--- java

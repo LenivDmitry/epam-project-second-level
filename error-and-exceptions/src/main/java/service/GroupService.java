@@ -1,7 +1,9 @@
 package service;
 
 import entity.Group;
+import entity.Mark;
 import entity.Student;
+import enums.Subject;
 import exceptions.GroupWithoutStudentException;
 
 import java.util.ArrayList;
@@ -13,10 +15,14 @@ public class GroupService {
         Group m1 = new Group("M-1", new ArrayList<>());
         Group d1 = new Group("D-1", new ArrayList<>());
         for (Student student : students) {
-            if (m1.getName().equalsIgnoreCase(student.getGroupNumber())) {
-                m1.getStudents().add(student);
-            } else if (d1.getName().equalsIgnoreCase(student.getGroupNumber())) {
-                d1.getStudents().add(student);
+            for (Mark mark: student.getMarks()) {
+                if (mark.getSubject().equals(Subject.PHYSICS)){
+                    m1.getStudents().add(student);
+                    break;
+                } else if (mark.getSubject().equals(Subject.DESIGN)){
+                    d1.getStudents().add(student);
+                    break;
+                }
             }
         }
         groups.add(m1);

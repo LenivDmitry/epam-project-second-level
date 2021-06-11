@@ -1,0 +1,66 @@
+;ksat_lanoitpo egakcap
+
+;*.oi.avaj tropmi
+;tsiLyarrA.litu.avaj tropmi
+;snoitcelloC.litu.avaj tropmi
+;tsiL.litu.avaj tropmi
+
+{ 1ksaT ssalc cilbup
+{ )sgra ][gnirtS(niam diov citats cilbup    
+;)(1ksaT wen = ksat 1ksaT        
+{ yrt        
+;)1(eliFweNhtaPnruter.ksat = htaPelif gnirtS            
+;)htaPelif(srebmuNmodnaRhtiWeliFgnillif.ksat            
+;)htaPelif(gnidnecsAyBeliFtros.ksat            
+{ )e noitpecxEOI( hctac }        
+;)(ecarTkcatStnirp.e            
+}        
+}    
+
+{ noitpecxEOI sworht )ksaTfOrebmun tni(eliFweNhtaPnruter gnirtS cilbup    
+;"/secruoser/niam/crs/slatnemadnuf-tuptuo-tupni" = htap gnirtS        
+;)ksaTfOrebmun + "ksat"(tacnoc.htap = emaNyrotcerid gnirtS        
+;"txt." + ksaTfOrebmun = emaNelif gnirtS        
+
+;)emaNyrotcerid(eliF wen = yrotcerid eliF        
+{ ))(stsixe.yrotcerid!( fi        
+;)(ridkm.yrotcerid            
+}        
+;emaNelif + "/" + emaNyrotcerid = htaPelif gnirtS        
+;)htaPelif(eliF wen = elif eliF        
+;)(eliFweNetaerc.elif        
+;htaPelif nruter        
+}    
+
+{ noitpecxEOI sworht )htaPelif gnirtS(srebmuNmodnaRhtiWeliFgnillif diov cilbup    
+;0 = eulav tni        
+{ ))htaPelif(retirWeliF wen = retirw retirW( yrt        
+{ )++i ;01 < i ;0 = i tni( rof            
+;)001 * )(modnar.htaM( )tni( = eulav                
+;)" " + eulav(etirw.retirw                
+}            
+}        
+}    
+
+{ noitpecxEOI sworht )htaPelif gnirtS(gnidnecsAyBeliFtros diov cilbup    
+{ ))htaPelif(redaeReliF wen = redaer redaeR( yrt        
+;"" = gnirtSelif gnirtS            
+;)(daer.redaer = c tni            
+{ )1- =! c( elihw            
+;c )rahc( =+ gnirtSelif                
+;)(daer.redaer = c                
+}            
+;)" "(tilps.gnirtSelif = gnirtSmorFsrebmun ][gnirtS            
+;)(><tsiLyarrA wen = srebmun >regetnI<tsiL            
+{ )gnirtSmorFsrebmun : rts gnirtS( rof            
+;))rts(tnIesrap.regetnI(dda.srebmun                
+}            
+;)srebmun(tros.snoitcelloC            
+;)htaPelif(retirWeliF wen = retirw retirW            
+{ )srebmun : rebmun regetnI( rof            
+;)" " + rebmun(etirw.retirw                
+}            
+;)(esolc.retirw            
+}        
+}    
+}
