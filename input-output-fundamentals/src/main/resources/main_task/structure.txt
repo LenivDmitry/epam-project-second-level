@@ -1,7 +1,7 @@
  | input-output-fundamentals.iml
  | pom.xml
  |--- src
- |  |--- main
+ |  |--- main_task
  |  |  |--- java
  |  |  |  |--- main_task
  |  |  |  |  | Main.java
