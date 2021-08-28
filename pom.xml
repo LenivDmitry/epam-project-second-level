@@ -12,6 +12,7 @@
         <module>error-and-exceptions</module>
         <module>input-output-fundamentals</module>
         <module>threads</module>
+        <module>selenium-web-driver</module>
     </modules>
 
 
